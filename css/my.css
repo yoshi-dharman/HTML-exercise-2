@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
+
+*{
+    font-family: 'Oxygen', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    background-color: whitesmoke;
+  }
+
+hr{
+    border: 1px solid gold;
+    border-radius: 5px;
+}
+
+.nav-flex {
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    /* padding: 10px; */
+    background-color: #2c2727;
+    font-weight: bold;
+}
+
+.nav-flex div{
+    display: flex;
+    position: relative;
+    
+}
+
+.nav-flex .logo{
+    color: gold;
+    font-size: 3em;
+    padding-left: 0.4em;
+    text-shadow: 0px 0px 5px gold;
+    cursor: default;
+}
+
+.nav-flex a {
+    /* margin: 0.5rem 2rem; */
+    font-size: 1vw;
+    background-color: #2c2727;
+    color: white;
+    padding: 1em 2.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-flex a:hover ,.nav-flex a.selected:hover{
+    background-color: gold;
+    color: #2c2727;
+}
+
+.nav-flex a.selected{
+    background-color: whitesmoke;
+    color: #2c2727;
+}
+
+.main{
+    position: relative;
+    height: 90vh;
+}
+
+.container-flex{
+    /* position: relative; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    top: 0px;
+    left: 0;
+    position: absolute;
+}
+
+.container-flex.no-flex{
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.myData{
+    position: relative;
+    left: 10%;
+    /* display: flex;
+    flex-direction: column; */
+    width: 80%;
+}
+
+.myData .data{
+    margin: 0.5rem 0;
+    text-align: justify;
+}
+
+.myName{
+    font-size: 2.5vw;
+}
+
+.myPassion{
+    font-size: 1vw;
+}
+
+.myIcon img{
+    width: 35px;
+    filter: opacity(70%);
+}
+
+.myParagraph{
+    width: 60%;
+}
+
+.flex-round{
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-left: -2.4rem;
+    line-height: 1.5rem;
+    /* text-align: center; */
+}
+
+.myList{
+    position: relative;
+}
+
+.myList > p {
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.myGallery{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.card{
+    margin: 20px 40px 20px 0;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 33%;
+}
+
+.card-head{
+    /* width: 250px; */
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    height: 300px;
+    border: 2px solid #2c2727;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    position: absolute;
+}
+
+.card-description{
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4vw;
+}
+
+.flex-row p{
+    width: 40%;
+    align-self: center;
+    text-align: justify;
+}
+
+.flex-col{
+    width: 90%;
+    flex-direction: column;
+    display: flex;
+    margin-top: 20px;
+}
+
+.hobby-img{
+    filter: opacity(70%);
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+    width: 40%;
+}
+
+.footer{
+    text-align: center;
+}
